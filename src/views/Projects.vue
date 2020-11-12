@@ -1,41 +1,7 @@
 <template>
-  <div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-    <div>a</div>
-  </div>
+  <v-container>
+    <h1>Projects</h1>
+  </v-container>
 </template>
 
 <script>
