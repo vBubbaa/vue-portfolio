@@ -14,18 +14,26 @@
         tag
       }}</v-chip>
       <div class="py-8 btn-group">
-        <v-btn color="#f61032" outlined v-if="project.code">
-          <a :href="project.code" target="_blank">View Code</a>
-        </v-btn>
-        <v-btn color="#f61032" outlined v-if="project.frontend">
-          <a :href="project.frontend" target="_blank">View Frontend Code</a>
-        </v-btn>
-        <v-btn color="#f61032" outlined v-if="project.backend">
-          <a :href="project.backend" target="_blank">View Backend Code</a>
-        </v-btn>
-        <v-btn color="#f61032" outlined v-if="project.live">
-          <a :href="project.live" target="_blank">View Site</a>
-        </v-btn>
+        <a :href="project.code" target="_blank">
+          <v-btn outlined v-if="project.code">
+            View Code
+          </v-btn>
+        </a>
+        <a :href="project.frontend" target="_blank">
+          <v-btn outlined v-if="project.frontend">
+            View Frontend Code
+          </v-btn>
+        </a>
+        <a :href="project.backend" target="_blank">
+          <v-btn outlined v-if="project.backend">
+            View Backend Code
+          </v-btn>
+        </a>
+        <a :href="project.live" target="_blank">
+          <v-btn outlined v-if="project.live">
+            View Site
+          </v-btn>
+        </a>
       </div>
     </v-card-subtitle>
 
@@ -65,6 +73,14 @@ export default {
 </script>
 
 <style scoped>
+a {
+  color: white !important;
+}
+
+a:hover {
+  color: white !important;
+}
+
 .project-chip {
   margin: 5px;
 }

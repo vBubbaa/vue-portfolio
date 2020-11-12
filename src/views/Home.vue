@@ -32,11 +32,11 @@
         <v-col cols="12" sm="6" class="text-center" align-self="center">
           <div class="name">Michael James</div>
           <div class="about-subsection-title">
-            Full-stack web applications developer
+            Full-stack Web Applications Developer
           </div>
           <hr class="subsection-hr" />
           <div class="about-subsection">
-            I am a highly-motivated developer with a vast skillset and an
+            I am a highly motivated developer with a vast skillset and an
             unbeated urge to learn. When working with me, you will not only be
             bringing on a skilled developer, but a developer that can adapt to
             the needs of any team and is more than happy to learn and use
