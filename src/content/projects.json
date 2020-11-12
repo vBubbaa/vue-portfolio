@@ -3,7 +3,47 @@
     "id": 1,
     "name": "SteamComparer",
     "description": "Steamcomparer allows Steam users to authenticate using Steam OpenID and compare app libraries with any friends they select. Steamcomparer hooks into the Steam Client and monitors all applications on Steam and has an extensive backend supporting several app fields and changelog fields",
-    "tags": ["Django-Rest-Framework", "NuxtJS", "Vuetify", "Steam"],
+    "tags": ["Django-Rest-Framework", "NuxtJS", "Vuetify", "OpenID", "Steam"],
     "image": "steamcomparer.png"
+  },
+  {
+    "id": 2,
+    "name": "Android Mouse",
+    "description": "Android mouse is an android application that lets user control a mouse on screen using only facial movements. It has click functionality without touching the device. The project was intended to help those with disabilities control an Android Device without touching the phone. This was my senior capstone project.",
+    "tags": ["Java", "Android Studio", "OpenCV"],
+    "image": "androidmouse.png"
+  },
+  {
+    "id": 3,
+    "name": "My Portfolio",
+    "description": "This portfolio was built to showcase my diverse skillset and include projects I have worked on, an online resume, and an about me page.",
+    "tags": ["VueJS", "Vuetify"],
+    "image": "me-cover.png"
+  },
+  {
+    "id": 4,
+    "name": "JustDnD",
+    "description": "JustDnD is a web-application that I built so that users can have a central storage location to store Dungeons and Dragons character sheets for 'one-shots'. It also has a feature allowing users to create templates for others to use, so people can simply click on a template and use it with pre-filled in information. It has full authentication and a search page to find pre-existing templates.",
+    "tags": [
+      "NuxtJS",
+      "Vuetify",
+      "Django-Rest-Framework",
+      "JWT-Authentication"
+    ],
+    "image": "justdnd.png"
+  },
+  {
+    "id": 5,
+    "name": "Django Twitter Clone",
+    "description": "Django Twitter Clone is a twitter replica built purely with Django. It features full authentication with User pages showing tweets. Each Tweet can be liked or disliked as well as commented on. Comments can also be liked or disliked. Each user has a follower model relation, where you can view the number of followers, followees, and also a browsable section to see who follows you and who you follow.",
+    "tags": ["Django", "Bootstrap", "JQuery", "Ajax"],
+    "image": "twitter.png"
+  },
+  {
+    "id": 6,
+    "name": "Everything Food's Search App",
+    "description": "This project was quickly put together for Everything Food's code submission. The guidelines where to leverage NuxtJS and TailwindCSS to create a web application which included at least one filtering option, and at least one sorting option for an API with several food items. The API was provided to use and returned food items based on query parameters. The applications features full search functionality. Users can filter by brands and package size and can sort by ABBScore and alphabetical order.",
+    "tags": ["NuxtJS", "TailwindCSS"],
+    "image": "everythingfood.png"
   }
 ]

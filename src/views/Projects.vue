@@ -1,22 +1,22 @@
 <template>
   <v-container>
-    <div v-for="project in projects" :key="project.id">
-      <v-img
-        :src="require(`@/assets/projectimages/${project.image}`)"
-        width="150"
-        height="150"
-        contain
-      ></v-img>
-      {{ project.name }}
-    </div>
+    <v-row justify="center" align="stretch">
+      <v-col cols="12" sm="6" v-for="project in projects" :key="project.id">
+        <projectcard :project="project" />
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
 <script>
 import projects from '../content/projects.json';
+import projectcard from '../components/project/projectcard';
 
 export default {
   name: 'Projects',
+  components: {
+    projectcard,
+  },
   data() {
     return {
       projects,
