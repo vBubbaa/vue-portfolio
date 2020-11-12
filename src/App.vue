@@ -1,28 +1,73 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app class="main-app">
+    <nav class="px-8 py-6 nav-row text-right">
+      <router-link to="/" class="home-link">MJ.</router-link>
+    </nav>
+    <v-main class="main-wrap">
+      <router-view></router-view>
+    </v-main>
+    <footer>
+      <div>
+        <v-icon large color="white">mdi-github</v-icon>
+      </div>
+      <div>
+        <v-icon large color="white">mdi-linkedin</v-icon>
+      </div>
+    </footer>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+<style scoped>
+.nav-row {
+  background: black !important;
+}
+
+.home-link {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.main-wrap {
+  background-color: black;
+}
+
+footer {
+  background-color: black !important;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+
+footer div {
+  display: inline-block;
+  padding: 1.5rem;
+}
+
+i:hover {
+  color: #fa0f32 !important;
+}
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+.main-app {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #fa0f32 !important;
+}
+
+.router-link-exact-active {
+  color: #fa0f32 !important;
 }
 </style>
