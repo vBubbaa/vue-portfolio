@@ -70,4 +70,19 @@ a:hover {
 .router-link-exact-active {
   color: #fa0f32 !important;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #535353;
+}
 </style>

@@ -42,7 +42,7 @@
             the needs of any team and is more than happy to learn and use
             whatever skillset you want brought to the table. I stay up to date
             with the newest and most cutting edge technology as a passion, not
-            as a job.
+            just as a job.
           </div>
         </v-col>
       </v-row>
