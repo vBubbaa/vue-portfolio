@@ -9,10 +9,24 @@
       {{ project.name }}
     </v-card-title>
 
-    <v-card-subtitle>
+    <v-card-subtitle class="chip-group">
       <v-chip class="project-chip" v-for="tag in project.tags" :key="tag">{{
         tag
       }}</v-chip>
+      <div class="py-8 btn-group">
+        <v-btn color="#f61032" outlined v-if="project.code">
+          <a :href="project.code" target="_blank">View Code</a>
+        </v-btn>
+        <v-btn color="#f61032" outlined v-if="project.frontend">
+          <a :href="project.frontend" target="_blank">View Frontend Code</a>
+        </v-btn>
+        <v-btn color="#f61032" outlined v-if="project.backend">
+          <a :href="project.backend" target="_blank">View Backend Code</a>
+        </v-btn>
+        <v-btn color="#f61032" outlined v-if="project.live">
+          <a :href="project.live" target="_blank">View Site</a>
+        </v-btn>
+      </div>
     </v-card-subtitle>
 
     <v-card-actions>
@@ -57,5 +71,12 @@ export default {
 
 .project-card-wrap {
   margin: 1.5rem;
+}
+
+.chip-group {
+  min-height: 150px;
+}
+.btn-group button {
+  margin: 5px;
 }
 </style>

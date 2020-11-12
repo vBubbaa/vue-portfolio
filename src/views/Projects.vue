@@ -1,7 +1,15 @@
 <template>
   <v-container>
     <v-row justify="center" align="stretch">
-      <v-col cols="12" sm="6" v-for="project in projects" :key="project.id">
+      <v-col
+        xs="12"
+        sm="12"
+        md="12"
+        lg="12"
+        xl="6"
+        v-for="project in projects"
+        :key="project.id"
+      >
         <projectcard :project="project" />
       </v-col>
     </v-row>
