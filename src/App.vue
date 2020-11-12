@@ -8,10 +8,17 @@
     </v-main>
     <footer>
       <div>
-        <v-icon large color="white">mdi-github</v-icon>
+        <a href="https://github.com/vBubbaa" target="_blank">
+          <v-icon large color="white">mdi-github</v-icon>
+        </a>
       </div>
       <div>
-        <v-icon large color="white">mdi-linkedin</v-icon>
+        <a
+          href="https://www.linkedin.com/in/michael-james-60b81216b/"
+          target="_blank"
+        >
+          <v-icon large color="white">mdi-linkedin</v-icon>
+        </a>
       </div>
     </footer>
   </v-app>
