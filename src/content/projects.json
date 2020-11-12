@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "name": "SteamComparer",
+    "description": "Steamcomparer allows Steam users to authenticate using Steam OpenID and compare app libraries with any friends they select. Steamcomparer hooks into the Steam Client and monitors all applications on Steam and has an extensive backend supporting several app fields and changelog fields",
+    "tags": ["Django-Rest-Framework", "NuxtJS", "Vuetify", "Steam"],
+    "image": "steamcomparer.png"
+  }
+]
