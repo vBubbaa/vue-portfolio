@@ -73,7 +73,7 @@ a:hover {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 4px;
+  width: 6px;
 }
 
 /* Handle */
@@ -81,8 +81,13 @@ a:hover {
   background: gray;
 }
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #535353;
+}
+
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #535353;
+  background: rgb(158, 158, 158);
 }
 </style>
