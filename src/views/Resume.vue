@@ -7,6 +7,20 @@
             Resume.
           </h1>
         </div>
+
+        <div class="section">
+          <h3 class="section-title">Professional Profile</h3>
+          <div class="section-content">
+            Full-Stack Web Applications Developer with a vast skillset and an
+            unbeaten urge to learn. When bringing me onto your team, not only
+            will you be getting a skilled developer, but a developer that can
+            adapt to any teams needs and can utilize whatever tool is needed to
+            get the job done.
+          </div>
+        </div>
+
+        <hr />
+
         <div class="section">
           <h3 class="section-title">Skills</h3>
           <div class="section-content">
