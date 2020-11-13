@@ -37,7 +37,7 @@
           <hr class="subsection-hr" />
           <div class="about-subsection">
             I am a highly motivated developer with a vast skillset and an
-            unbeated urge to learn. When working with me, you will not only be
+            unbeaten urge to learn. When working with me, you will not only be
             bringing on a skilled developer, but a developer that can adapt to
             the needs of any team and is more than happy to learn and use
             whatever skillset you want brought to the table. I stay up to date
