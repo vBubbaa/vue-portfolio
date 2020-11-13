@@ -43,7 +43,7 @@
   {
     "id": 5,
     "name": "Django Twitter Clone",
-    "description": "Django Twitter Clone is a twitter replica built purely with Django. It features full authentication with User pages showing tweets. Each Tweet can be liked or disliked as well as commented on. Comments can also be liked or disliked. Each user has a follower model relation, where you can view the number of followers, followees, and also a browsable section to see who follows you and who you follow.",
+    "description": "Django Twitter Clone is a Twitter replica built purely with Django. It features full authentication with user pages showing tweets. Each tweet can be liked or disliked as well as commented on. Comments can also be liked or disliked. Each user has a follower model relation, where you can view the number of followers, followees, and also a browsable section to see who follows you and who you follow.",
     "tags": ["Django", "Bootstrap", "JQuery", "Ajax"],
     "image": "twitter.png",
     "code": "https://github.com/vBubbaa/django-twitter"

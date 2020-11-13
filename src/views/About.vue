@@ -6,7 +6,7 @@
         <div class="section-wrap">
           <div class="section">
             I got my start into the technology world while obtaining my
-            Bachelors degree in Information Technology from Arizona State
+            Bachelors Degree in Information Technology from Arizona State
             University.
           </div>
           <div class="section">
@@ -18,31 +18,30 @@
           </div>
           <div class="section">
             After a few months, I got promoted to the development team, and was
-            soon building out web applications for the Herberger Intitute at
-            Arizona State University. We utilized HTML, CSS, Javascript, and a
-            C# ASP.NET backend to update already existing web applications as
-            well as take staff suggestions to build out new web pages.
+            soon building out full-stack web-applications. We utilized HTML,
+            CSS, Javascript, and a C# ASP.NET backend to update already existing
+            web applications as well as take staff suggestions to build out new
+            web pages.
           </div>
           <div class="section">
-            After gathering valuable experience as a full-stack developer, I was
-            soon to be graduating, and decided to pursue freelancing and be able
-            to focus more on my senior capstone and learn new technologies to
-            work with.
+            After gathering valuable experience as a full-stack developer, I
+            decided to focus on finishing my degree and pursue freelancing to
+            learn new technologies.
           </div>
           <div class="section">
             While freelancing, I picked up several new skills and added them to
-            my toolkit. For backend development, I picked up Django and Django
-            Rest Framework and learned about all things REST. For frontend
+            my toolkit. For back-end development, I picked up Django and Django
+            Rest Framework and learned about all things REST. For front-end
             development I initially picked up ReactJS, but soon after learning
             the core fundamentals, made the switch to VueJS and also NuxtJS. I
             also picked up other tools such as material UI libraries including
             Vuetify, Bootstrap, and TailwindCSS. I worked on several projects
-            using Django and Django Rest Framework along with utilizing frontend
-            frameworks.
+            using Django and Django Rest Framework along with utilizing
+            front-end frameworks.
           </div>
           <div class="section">
             Throughout my journey, I have learned and used a wide variety of
-            tools. I have a diverse skillset, and an unbeatable eagerness to
+            tools. I have a diverse skillset, and an unparalleled eagerness to
             learn. To this day, I am always staying up to date with newest and
             most cutting edge technologies.
           </div>

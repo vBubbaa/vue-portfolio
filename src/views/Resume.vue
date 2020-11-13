@@ -12,10 +12,10 @@
           <h3 class="section-title">Professional Profile</h3>
           <div class="section-content">
             Full-Stack Web Applications Developer with a vast skillset and an
-            unbeaten urge to learn. When bringing me onto your team, not only
-            will you be getting a skilled developer, but a developer that can
-            adapt to any teams needs and can utilize whatever tool is needed to
-            get the job done.
+            unparalleled urge to learn. When bringing me onto your team, not
+            only will you be getting a skilled developer, but a developer that
+            can adapt to any team's needs and can utilize whatever tool is
+            needed to get the job done.
           </div>
         </div>
 
@@ -46,9 +46,9 @@
                 Courses related to cyber-security and Linux/Unix administration
               </li>
               <li>
-                Capstone project allowing users to use and Android Phone to
-                control a mouse on screen controlled only with facial movements
-                including on screen clicking functionality
+                Senior capstone project allowing users to control an Android
+                phone with facial movements. Performs onscreen clicks and
+                mouse-like movements using only facial movements.
               </li>
             </ul>
           </div>
@@ -59,12 +59,12 @@
         <div class="section">
           <h3 class="section-title">Professional Experience</h3>
           <h4 class="section-subtitle">
-            Full Stack Web Developer | 3/19 – Current | Freelance
+            Full-Stack Web Developer | 3/19 – Present | Freelance
           </h4>
           <div class="section-content">
             <ul>
               <li>
-                Built and deployed Django and Django Rest Framework backends
+                Built and deployed Django and Django Rest Framework back-ends
               </li>
               <li>
                 Built and deployed dynamic and mobile responsive front-end web
@@ -77,7 +77,7 @@
                 Advanced model filtering with several filtering options
               </li>
               <li>
-                Steam client connection management with application tracking +
+                Steam client connection management with application tracking and
                 application history
               </li>
               <li>
@@ -91,7 +91,10 @@
             </ul>
             <div>
               See one of the websites I worked on:
-              <a class="work-link" href="http://steamcomparer.com/"
+              <a
+                class="work-link"
+                target="_blank"
+                href="http://steamcomparer.com/"
                 >http://steamcomparer.com/</a
               >
             </div>
@@ -109,10 +112,12 @@
                 Developed and managed several Arizona State University Herberger
                 Institute websites
               </li>
-              <li>Worked with the ASP.NET backend to build views and models</li>
               <li>
-                Used HTML, CSS, Javascript, and JQuery to build the front-end of
-                the webpages
+                Worked with the ASP.NET back-end to build views and models
+              </li>
+              <li>
+                Used HTML, CSS, Javascript, and JQuery to build out the
+                front-end of the web-applications
               </li>
               <li>
                 Connected ASP.NET with active directory using the LDAP protocol
@@ -123,6 +128,7 @@
               See one of the websites I worked on:
               <a
                 class="work-link"
+                target="_blank"
                 href="https://herbergerinstitute.asu.edu/research-and-initiatives/counteract"
                 >https://herbergerinstitute.asu.edu/research-and-initiatives/counteract</a
               >
